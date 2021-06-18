@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup>
+		<!--To enable file nesting rules-->
+		<ProjectCapability Include="DynamicDependentFile" />
+		<ProjectCapability Include="DynamicFileNesting" />
+		<ProjectCapability Include="WebNestingDefaults" />
+	</ItemGroup>
+</Project>
