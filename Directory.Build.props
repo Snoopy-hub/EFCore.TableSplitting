@@ -1,6 +1,6 @@
 <Project>
 	<ItemGroup>
-		<!--To enable file nesting rules-->
+		<!--Trick to enable file nesting rules on all project types-->
 		<ProjectCapability Include="DynamicDependentFile" />
 		<ProjectCapability Include="DynamicFileNesting" />
 		<ProjectCapability Include="WebNestingDefaults" />
